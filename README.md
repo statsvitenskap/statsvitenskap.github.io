@@ -1,3 +1,3 @@
 # Hello, world!
 
-#  statsvitenskap.github.io
+statsvitenskap.github.io
