@@ -7,7 +7,7 @@ PLANNING:
 */
 
 body {
-  background-color: beige;
+  background-color: rgb(243, 243, 223);
 }
 
 /* text styling:
@@ -40,22 +40,30 @@ p {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+li {
+  color: rgb(65, 55, 31);
+  line-height: 2.0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /* INFO SECTION TEXT STYLING */
 
 h1.isect {
-  color: brown;
+  color: rgb(65, 55, 31);
   text-align: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 h3.isect {
-  color: brown;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(65, 55, 31);
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 p.isect {
-  color: brown;
+  color: rgb(65, 55, 31);
   text-align: center;
+  margin-top: 0px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -81,11 +89,10 @@ a:hover {
 .left-bar {
   /* for left sidebar */
   width: 30%;
-  scroll-margin-top: 20 px;
   background-color: rgb(139, 123, 86);
-  margin: 10px;
+  margin: 20px;
     margin-top: 7px;
-  padding: 10px;
+  padding: 5px;
   border-radius: 5px;
   position: fixed;
 }
@@ -115,6 +122,6 @@ nav {
 .info-section {
   display: flex;
   flex-flow: column wrap;
-  margin-left: 35%;
-
+  margin-left: 45%;
+  margin-right: 10%;
 }
